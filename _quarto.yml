@@ -1,0 +1,36 @@
+
+project:
+  type: website
+
+website:
+  title: "My Website"
+  navbar:
+    title: "PAIGE WATTERS"
+    background: "#ffccdd"
+    logo: img/heart.png
+    logo-href: index.qmd
+    collapse: true
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: education.qmd
+        text: Education and Activities
+      - text: Portfolio
+        href: Unit02.html
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    lightbox: true
+    mainfont: EB Garamond
+    monofont: monospace
+    toc: true
+    
+editor: visual
+
+
+
